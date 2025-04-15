@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paradise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('hotel2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <header>
+        <h1>Hotel Paradise</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="index2.html">About</a></li>
+                <li><a href="index3.html">Services</a></li>
+                <li><a href="index4.html">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Welcome to Hotel Paradise</h2>
+        <p>Your luxury escape awaits</p>
+        <button onclick="bookNow()">Book Now</button>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Experience world-class service and comfort in our hotel. Enjoy fine dining, spa treatments, and more.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Luxury Rooms</li>
+            <li>Fine Dining</li>
+            <li>Spa & Wellness</li>
+            <li>Conference Halls</li>
+        </ul>
+    </section>
+    <script>
+        function bookNow() {
+            window.location.assign('index4.html');
+        }
+    </script>
+    
+    <footer>
+        <p>&copy; 2025 Hotel Paradise. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
